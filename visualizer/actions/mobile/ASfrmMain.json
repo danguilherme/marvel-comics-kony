@@ -1,0 +1,18 @@
+{
+	"AS_Form_23c49759eabc4f8ab52dd3f351123ccb": {
+		"id": "AS_Form_23c49759eabc4f8ab52dd3f351123ccb",
+		"type": "ACTION_SEQUENCE",
+		"name": "ASfrmMain",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION___59ee90aa8b03403abb543f639ec9fd44",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "mod_frmMain",
+				"display": "mod_frmMain",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}
