@@ -38,7 +38,8 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "btnOpenCharactersForm"
+        "btnOpenCharactersForm",
+        "btnOpenComicsForm"
     ],
     "clipBounds": true,
     "clipbounds": true,
