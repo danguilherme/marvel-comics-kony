@@ -15,6 +15,6 @@
   
   * Create symlink in Kony Visualizer workspace pointing to the project inside this repo (Kony Visualizer's workspace [cannot be changed](https://www.linkedin.com/grp/post/4981807-6012212004817752065))
   
-  `$ ln -s visualizer/ ~/Kony\ Visualizer/konyworkspace/Marvel`
+  `$ ln -s {Absolute Path for your repository}/visualizer/ {Absolute Path for your Kony Visualizer Workspace}/Marvel`
   
   * Open Visualizer and change to project "Marvel"
