@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s81cec865ba540d0890051d6319699b1",
+    "_skin_": "sb43bb2c11ee4cbaaa95e4478f21002f",
     "_text_": "Characters",
     "_top_": {
         "type": "string",
@@ -40,8 +40,8 @@
     "displayText": true,
     "displaytext": true,
     "enabled": false,
-    "focusSkin": "sb081d437966452a86545aaaf1ff2e23",
-    "focusskin": "sb081d437966452a86545aaaf1ff2e23",
+    "focusSkin": "s3c5ad1d9f4a4e81a63a9b080a05b6c9",
+    "focusskin": "s3c5ad1d9f4a4e81a63a9b080a05b6c9",
     "height": "50dp",
     "id": "btnOpenCharactersForm",
     "info": null,
@@ -65,7 +65,7 @@
     "parent": "flxcRoot",
     "pf": "frmMain",
     "render": true,
-    "skin": "s81cec865ba540d0890051d6319699b1",
+    "skin": "sb43bb2c11ee4cbaaa95e4478f21002f",
     "text": "Characters",
     "top": "5%",
     "wType": "Button",
