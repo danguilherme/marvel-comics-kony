@@ -6,49 +6,49 @@
         {
             "bio": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "text": ""
             },
             "character": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Character Name"
+                "text": "Silver Surfer (1968) #2"
             },
             "thumbnail": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/55cca22294d68.jpg"
             }
         },
         {
             "bio": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "text": "The Grandmaster enters a cosmic wager with Death herself, using Earthâ€™s mightiest heroes as his chess pieces! His goal? To return his fellow Elder of the Universe, the Collector, to life! The stakes? Nothing less than the fate of the Earth itself! Now, heroes from around the globe must battle it out in a contest like none ever seen before. Marvelâ€™s historic first miniseries is re-released in a single volume, packed with extras! Guest-starringâ€¦everyone! (Everyone circa 1982, that is.) Collecting MARVEL SUPER HERO CONTEST OF CHAMPIONS #1-3."
             },
             "character": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Character Name"
+                "text": "Marvel Super Hero Contest of Champions (2015) #1"
             },
             "thumbnail": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "http://i.annihil.us/u/prod/marvel/i/mg/7/60/55d23f7878fb6.jpg"
             }
         },
         {
             "bio": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "text": "Exploding out of the pages of SECRET WARS, one of the most popular super heroes in the world gets a gigantic new series. From the creators that brought you ULTIMATE SPIDER-MAN comes new armor, new supporting cast, new villains and a new purpose that is going to tear itself across the entire Marvel Universe and beyond. With a shocker of a last page that will have everyone talking and the return of one of Tonyâ€™s biggest nemeses, you will not want to miss this!! Also, who are Tonyâ€™s biological parents? The quest begins here!"
             },
             "character": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Character Name"
+                "text": "Iron Man (2015) #1 (Wraparound Cover)"
             },
             "thumbnail": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "http://i.annihil.us/u/prod/marvel/i/mg/7/20/5575ed74293fc.jpg"
             }
         }
     ],
     "_height_": {
-        "type": "string",
-        "value": "90%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_indicator_": "none",
     "_left_": {
@@ -77,8 +77,8 @@
         "type": "string",
         "value": "100%"
     },
-    "autogrowMode": 0,
-    "autogrowmode": 0,
+    "autogrowMode": 1,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
@@ -87,43 +87,43 @@
         {
             "bio": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "text": ""
             },
             "character": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Character Name"
+                "text": "Silver Surfer (1968) #2"
             },
             "thumbnail": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/55cca22294d68.jpg"
             }
         },
         {
             "bio": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "text": "The Grandmaster enters a cosmic wager with Death herself, using Earthâ€™s mightiest heroes as his chess pieces! His goal? To return his fellow Elder of the Universe, the Collector, to life! The stakes? Nothing less than the fate of the Earth itself! Now, heroes from around the globe must battle it out in a contest like none ever seen before. Marvelâ€™s historic first miniseries is re-released in a single volume, packed with extras! Guest-starringâ€¦everyone! (Everyone circa 1982, that is.) Collecting MARVEL SUPER HERO CONTEST OF CHAMPIONS #1-3."
             },
             "character": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Character Name"
+                "text": "Marvel Super Hero Contest of Champions (2015) #1"
             },
             "thumbnail": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "http://i.annihil.us/u/prod/marvel/i/mg/7/60/55d23f7878fb6.jpg"
             }
         },
         {
             "bio": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "text": "Exploding out of the pages of SECRET WARS, one of the most popular super heroes in the world gets a gigantic new series. From the creators that brought you ULTIMATE SPIDER-MAN comes new armor, new supporting cast, new villains and a new purpose that is going to tear itself across the entire Marvel Universe and beyond. With a shocker of a last page that will have everyone talking and the return of one of Tonyâ€™s biggest nemeses, you will not want to miss this!! Also, who are Tonyâ€™s biological parents? The quest begins here!"
             },
             "character": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Character Name"
+                "text": "Iron Man (2015) #1 (Wraparound Cover)"
             },
             "thumbnail": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "http://i.annihil.us/u/prod/marvel/i/mg/7/20/5575ed74293fc.jpg"
             }
         }
     ],
@@ -133,7 +133,7 @@
     "groupCells": false,
     "groupcells": false,
     "hasSections": false,
-    "height": "90%",
+    "height": "120dp",
     "id": "segCharacters",
     "indicator": "none",
     "info": null,
