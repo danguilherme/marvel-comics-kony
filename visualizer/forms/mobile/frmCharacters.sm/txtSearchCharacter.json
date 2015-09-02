@@ -23,7 +23,7 @@
         0
     ],
     "_placeholder_": "Search characters by name",
-    "_skin_": "s6230939bbce4b7ba3edaab10aaf8758",
+    "_skin_": "s062461d48ce4b6c9411c419dd99eb9a",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -81,7 +81,7 @@
     "render": true,
     "secureTextEntry": false,
     "securetextentry": false,
-    "skin": "s6230939bbce4b7ba3edaab10aaf8758",
+    "skin": "s062461d48ce4b6c9411c419dd99eb9a",
     "text": "",
     "textInputMode": "A",
     "textinputmode": "A",

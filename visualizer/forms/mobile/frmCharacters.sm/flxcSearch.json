@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s48284c2ba24472ba7b3c681ee4f478a",
+    "_skin_": "sc0f5c679dda4f4e9b1aa3c31c3cd977",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -72,7 +72,7 @@
     "percent": true,
     "pf": "frmCharacters",
     "render": true,
-    "skin": "s48284c2ba24472ba7b3c681ee4f478a",
+    "skin": "sc0f5c679dda4f4e9b1aa3c31c3cd977",
     "snapGridSize": 10,
     "snapToGrid": true,
     "snapgridsize": 10,

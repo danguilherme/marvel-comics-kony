@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_skin_": "s6b41098f27d49648f33a680759a4eb1",
+    "_skin_": "s6700b87e78c475eb11fc6a3044d1e5e",
     "_text_": "0 / 0",
     "_top_": {
         "type": "string",
@@ -72,7 +72,7 @@
     "parent": "flxcPagination",
     "pf": "frmCharacters",
     "render": true,
-    "skin": "s6b41098f27d49648f33a680759a4eb1",
+    "skin": "s6700b87e78c475eb11fc6a3044d1e5e",
     "text": "0 / 0",
     "toolTip": "",
     "tooltip": "",
