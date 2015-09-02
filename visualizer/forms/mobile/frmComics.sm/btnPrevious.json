@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb43bb2c11ee4cbaaa95e4478f21002f",
+    "_text_": "Previous",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "contentAlignment": 5,
+    "contentalignment": 5,
+    "displayText": true,
+    "displaytext": true,
+    "enabled": false,
+    "focusSkin": "s3c5ad1d9f4a4e81a63a9b080a05b6c9",
+    "focusskin": "s3c5ad1d9f4a4e81a63a9b080a05b6c9",
+    "height": "100%",
+    "id": "btnPrevious",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "352df0ee1d634371953116149cc75e2e",
+    "left": "0dp",
+    "margin": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "name": "kony.ui.Button",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flxcNavigatorPage",
+    "pf": "frmComics",
+    "render": true,
+    "skin": "sb43bb2c11ee4cbaaa95e4478f21002f",
+    "text": "Previous",
+    "top": "0dp",
+    "wType": "Button",
+    "widgetAlignment": 5,
+    "width": "30%",
+    "zIndex": 1,
+    "zindex": 1
+}
