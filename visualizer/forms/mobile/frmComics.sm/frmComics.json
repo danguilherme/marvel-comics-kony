@@ -1,6 +1,7 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
+    "_init_": "AS_Form_bb190d6472e84af39d87e2c12153b4e4",
     "_margin_": [
         0,
         0,
@@ -45,6 +46,7 @@
     "enabledforidletimeout": false,
     "id": "frmComics",
     "info": null,
+    "init": "AS_Form_bb190d6472e84af39d87e2c12153b4e4",
     "initdone": false,
     "inputAccessoryViewType": 4,
     "inputaccessoryviewtype": 4,

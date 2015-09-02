@@ -16,34 +16,6 @@
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
                 "src": "imagedrag.png"
             }
-        },
-        {
-            "comic": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            },
-            "content": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "RichText"
-            },
-            "thumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "comic": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            },
-            "content": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "RichText"
-            },
-            "thumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
         }
     ],
     "_height_": {
@@ -82,36 +54,8 @@
     "canUpdateUI": true,
     "containerWeight": 100,
     "containerweight": 100,
-    "counter": "02",
+    "counter": "00",
     "data": [
-        {
-            "comic": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            },
-            "content": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "RichText"
-            },
-            "thumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
-        {
-            "comic": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Label"
-            },
-            "content": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "RichText"
-            },
-            "thumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            }
-        },
         {
             "comic": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
@@ -183,7 +127,7 @@
     "rowFocusSkin": "s278bf36005748e9858b452171720473",
     "rowSkin": "sa0da3a2885e4634b9e275f643b59fb5",
     "rowTemplateId": "d093a7f9dd744d56abf53494b1667034",
-    "rowcounter": 2,
+    "rowcounter": 0,
     "rowfocusskin": "s278bf36005748e9858b452171720473",
     "rowskin": "sa0da3a2885e4634b9e275f643b59fb5",
     "rowtemplate": "conainer",
