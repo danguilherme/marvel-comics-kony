@@ -37,9 +37,10 @@
     "id": "flxcContainer",
     "info": null,
     "isSegmentChild": false,
+    "isTemplate": true,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "e2003449ab6b40d78762bd39bfb681ba",
+    "kuid": "6b5eed1d03044fde890f0e3c1938ecad",
     "layoutType": 3,
     "layouttype": 3,
     "margin": [

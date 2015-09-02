@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Search characters by name",
+    "_skin_": "s6230939bbce4b7ba3edaab10aaf8758",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autoCapitalize": "none",
+    "autoComplete": false,
+    "autoCorrect": false,
+    "autoFilter": false,
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerHeight": "",
+    "containerHeightMode": 1,
+    "containerWeight": 100,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentAlignment": 4,
+    "contentalignment": 4,
+    "enabled": false,
+    "height": "10%",
+    "id": "txtSearchCharacter",
+    "info": null,
+    "isVisible": true,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "f19abc5320a04e54b2a9528586564119",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "maxTextLength": "",
+    "maxtextlength": "",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "parent": "flxcRoot",
+    "pf": "frmCharacters",
+    "placeholder": "Search characters by name",
+    "render": true,
+    "secureTextEntry": false,
+    "securetextentry": false,
+    "skin": "s6230939bbce4b7ba3edaab10aaf8758",
+    "text": "",
+    "textInputMode": "A",
+    "textinputmode": "A",
+    "toolTip": "",
+    "top": "0dp",
+    "viewType": "default",
+    "viewtype": "default",
+    "wType": "TextField",
+    "widgetAlignment": 5,
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
+}

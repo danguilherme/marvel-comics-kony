@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0%"
     },
     "_margin_": [
         1,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "saf70ca953604a278544071c1a8b0cd5",
-    "_text_": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "_skin_": "s46ea4ee9ad1443ea5aa6b343bb18dc3",
+    "_text_": "Character Name",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -44,7 +44,7 @@
         "type": "ref",
         "value": "preferred"
     },
-    "id": "description",
+    "id": "character",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,14 +59,19 @@
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "6d740bf39b274948ac939d848953345a",
-    "left": "0dp",
+    "kuid": "efea870567e84868b5508d45b7584c80",
+    "left": "0%",
     "margin": [
         1,
         1,
         1,
         1
     ],
+    "maxHeight": "50%",
+    "maxheight": {
+        "type": "string",
+        "value": "50%"
+    },
     "name": "kony.ui.Label",
     "padding": [
         0,
@@ -77,11 +82,11 @@
     "parent": "flxcNameAndDesc",
     "pf": "tmplCharacterItem",
     "render": true,
-    "skin": "saf70ca953604a278544071c1a8b0cd5",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "skin": "s46ea4ee9ad1443ea5aa6b343bb18dc3",
+    "text": "Character Name",
     "toolTip": "",
     "tooltip": "",
-    "top": "5dp",
+    "top": "0dp",
     "wType": "Label",
     "widgetAlignment": 5,
     "width": "100%",

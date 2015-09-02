@@ -1,0 +1,237 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "bio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "character": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Character Name"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "bio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "character": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Character Name"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "bio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "character": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Character Name"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_rowTemplateId": "tmplCharacterItem",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "counter": "02",
+    "data": [
+        {
+            "bio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "character": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Character Name"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "bio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "character": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Character Name"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        },
+        {
+            "bio": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            "character": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Character Name"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        }
+    ],
+    "enabled": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupCells": false,
+    "groupcells": false,
+    "hasSections": false,
+    "height": "90%",
+    "id": "segCharacters",
+    "indicator": "none",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "d167f4c2847e4783a1d80bd00df46fae",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needPageIndicator": true,
+    "needpageindicator": true,
+    "orientation": 2,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "pageOffDotImage": "pageOffDot.png",
+    "pageOnDotImage": "pageOnDot.png",
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxcRoot",
+    "pf": "frmCharacters",
+    "render": true,
+    "retainSelection": false,
+    "retainselection": false,
+    "rowFocusSkin": "sc557c1ba9ff407889186a7ecbdfe352",
+    "rowSkin": "s6b3808551a6481ab3e5937383755c99",
+    "rowTemplateId": "a87265081b77415b977bdf5f6f7d214a",
+    "rowcounter": 2,
+    "rowfocusskin": "sc557c1ba9ff407889186a7ecbdfe352",
+    "rowskin": "s6b3808551a6481ab3e5937383755c99",
+    "rowtemplate": "flxcContainer",
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderSkin": "s32a20f39dd64ae08aa81eaaf23e4c81",
+    "sectionheaderskin": "s32a20f39dd64ae08aa81eaaf23e4c81",
+    "selectedIndex": null,
+    "selectedIndices": null,
+    "selectedItems": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionBehavior": "default",
+    "selectionbehavior": "default",
+    "separatorColor": "64646400",
+    "separatorRequired": true,
+    "separatorThickness": 1,
+    "separatorcolor": "64646400",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showScrollbars": false,
+    "showscrollbars": false,
+    "top": "0dp",
+    "viewType": "tableview",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetAlignment": 5,
+    "widgetDataMap": {
+        "bio": "bio",
+        "character": "character",
+        "flxcContainer": "flxcContainer",
+        "flxcNameAndDesc": "flxcNameAndDesc",
+        "thumbnail": "thumbnail"
+    },
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "bio": "bio",
+        "character": "character",
+        "flxcContainer": "flxcContainer",
+        "flxcNameAndDesc": "flxcNameAndDesc",
+        "thumbnail": "thumbnail"
+    },
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
+}

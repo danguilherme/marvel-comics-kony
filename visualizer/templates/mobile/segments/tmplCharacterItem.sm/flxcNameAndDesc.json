@@ -1,13 +1,17 @@
 {
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
     "_height_": {
         "type": "string",
         "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "1%"
     },
     "_margin_": [
         0,
@@ -24,19 +28,20 @@
     "_skin_": "s48284c2ba24472ba7b3c681ee4f478a",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "68%"
     },
     "allboxes": [],
     "autogrowMode": 0,
     "autogrowmode": 0,
+    "bottom": "5dp",
     "canUpdateUI": true,
     "children": [
-        "characterName",
-        "description"
+        "character",
+        "bio"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -52,10 +57,10 @@
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "7466116e5c724d80898d7b0f262c3415",
+    "kuid": "3ba99ff9e5164804b71c0681e72f081d",
     "layoutType": 4,
     "layouttype": 4,
-    "left": "0dp",
+    "left": "1%",
     "margin": [
         0,
         0,
@@ -79,11 +84,11 @@
     "snapToGrid": true,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "top": "0dp",
+    "top": "5dp",
     "wType": "FlexContainer",
     "widgetAlignment": 1,
     "widgetalignment": 1,
-    "width": "50%",
+    "width": "68%",
     "zIndex": 1,
     "zindex": 1
 }

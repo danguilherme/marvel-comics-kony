@@ -37,7 +37,10 @@
     "allowverticalbounce": true,
     "bounces": true,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "txtSearchCharacter",
+        "segCharacters"
+    ],
     "clipBounds": true,
     "clipbounds": true,
     "containerWeight": 100,
@@ -57,8 +60,8 @@
     "isVisible": true,
     "isvisible": true,
     "kuid": "75c491ee93224790af91dce7648ad52e",
-    "layoutType": 2,
-    "layouttype": 2,
+    "layoutType": 4,
+    "layouttype": 4,
     "left": "0dp",
     "margin": [
         0,
