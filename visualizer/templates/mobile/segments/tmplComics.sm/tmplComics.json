@@ -19,7 +19,7 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "flxcRoot"
+        "conainer"
     ],
     "containerId": true,
     "containerWeight": 100,

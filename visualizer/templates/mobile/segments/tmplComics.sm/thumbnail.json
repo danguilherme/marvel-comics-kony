@@ -5,7 +5,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "150dp"
+        "value": "170dp"
     },
     "_left_": {
         "type": "string",
@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "150dp"
+        "value": "170dp"
     },
     "base64": null,
     "canUpdateUI": true,
@@ -40,13 +40,13 @@
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "tmplComics",
+        "platform": "iphone",
         "templateType": "segments",
         "topLevelBox": null
     },
     "enabled": false,
-    "height": "150dp",
-    "id": "imgThumbnail",
+    "height": "170dp",
+    "id": "thumbnail",
     "imageScaleMode": 1,
     "imagescalemode": 1,
     "info": null,
@@ -68,7 +68,7 @@
         0,
         0
     ],
-    "parent": "flxcRoot",
+    "parent": "conainer",
     "pf": "tmplComics",
     "render": true,
     "skin": "s8b4820d99324ff195c51cc62aaec5bb",
@@ -78,5 +78,5 @@
     "wType": "Image",
     "widgetAlignment": 5,
     "widgetalignment": 5,
-    "width": "150dp"
+    "width": "170dp"
 }

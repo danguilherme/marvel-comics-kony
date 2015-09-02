@@ -22,9 +22,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgThumbnail",
-        "lblTitle",
-        "rctContent"
+        "thumbnail",
+        "comic",
+        "content"
     ],
     "clipBounds": true,
     "clipbounds": true,
@@ -35,7 +35,7 @@
     "enabled": false,
     "enablescrolling": true,
     "height": "170dp",
-    "id": "flxcRoot",
+    "id": "conainer",
     "info": null,
     "isSegmentChild": false,
     "isTemplate": true,

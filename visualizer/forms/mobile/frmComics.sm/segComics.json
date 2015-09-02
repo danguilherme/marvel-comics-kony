@@ -4,45 +4,45 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
-            "imgThumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblTitle": {
+            "comic": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "rctContent": {
+            "content": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "imgThumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblTitle": {
+            "comic": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "rctContent": {
+            "content": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "imgThumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblTitle": {
+            "comic": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "rctContent": {
+            "content": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         }
     ],
@@ -71,7 +71,7 @@
     "_rowTemplateId": "tmplComics",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -85,45 +85,45 @@
     "counter": "02",
     "data": [
         {
-            "imgThumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblTitle": {
+            "comic": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "rctContent": {
+            "content": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "imgThumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblTitle": {
+            "comic": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "rctContent": {
+            "content": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         },
         {
-            "imgThumbnail": {
-                "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
-            },
-            "lblTitle": {
+            "comic": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "Label"
             },
-            "rctContent": {
+            "content": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
             }
         }
     ],
@@ -186,7 +186,7 @@
     "rowcounter": 2,
     "rowfocusskin": "s278bf36005748e9858b452171720473",
     "rowskin": "sa0da3a2885e4634b9e275f643b59fb5",
-    "rowtemplate": "flxcRoot",
+    "rowtemplate": "conainer",
     "screenLevelWidget": false,
     "screenlevelwidget": false,
     "seccounter": 0,
@@ -204,30 +204,30 @@
     "selectionBehavior": "default",
     "selectionbehavior": "default",
     "separatorColor": "64646400",
-    "separatorRequired": true,
+    "separatorRequired": false,
     "separatorThickness": 1,
     "separatorcolor": "64646400",
-    "separatorrequired": true,
+    "separatorrequired": false,
     "separatorthickness": 1,
     "showScrollbars": false,
     "showscrollbars": false,
-    "top": "20dp",
+    "top": "0dp",
     "viewType": "tableview",
     "viewtype": "tableview",
     "wType": "Segment",
     "widgetAlignment": 5,
     "widgetDataMap": {
-        "flxcRoot": "flxcRoot",
-        "imgThumbnail": "imgThumbnail",
-        "lblTitle": "lblTitle",
-        "rctContent": "rctContent"
+        "comic": "comic",
+        "conainer": "conainer",
+        "content": "content",
+        "thumbnail": "thumbnail"
     },
     "widgetalignment": 5,
     "widgetdatamap": {
-        "flxcRoot": "flxcRoot",
-        "imgThumbnail": "imgThumbnail",
-        "lblTitle": "lblTitle",
-        "rctContent": "rctContent"
+        "comic": "comic",
+        "conainer": "conainer",
+        "content": "content",
+        "thumbnail": "thumbnail"
     },
     "width": "100%",
     "zIndex": 1,

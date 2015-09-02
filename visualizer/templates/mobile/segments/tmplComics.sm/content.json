@@ -1,5 +1,5 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
@@ -8,13 +8,13 @@
     },
     "_left_": {
         "type": "string",
-        "value": "160dp"
+        "value": "180dp"
     },
     "_margin_": [
-        1,
-        1,
-        1,
-        1
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
         0,
@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "s6700b87e78c475eb11fc6a3044d1e5e",
-    "_text_": "Label",
+    "_skin_": "sdf350b29a974302aae36660ddc5441d",
+    "_text_": "CONTENT",
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "ref",
@@ -44,46 +44,36 @@
         "type": "ref",
         "value": "preferred"
     },
-    "id": "lblTitle",
+    "id": "content",
     "info": null,
-    "ipad": {
-        "psp": {
-            "wrapping": 2
-        }
-    },
-    "iphone": {
-        "psp": {
-            "wrapping": 2
-        }
-    },
     "isSegmentChild": false,
     "isVisible": true,
     "isvisible": true,
-    "kuid": "c28f3759a5b441548255d79c2dd7c810",
-    "left": "160dp",
+    "kuid": "4688fdb6222c4d4d9d515267974bd574",
+    "left": "180dp",
     "margin": [
-        1,
-        1,
-        1,
-        1
+        0,
+        0,
+        0,
+        0
     ],
-    "name": "kony.ui.Label",
+    "name": "kony.ui.RichText",
     "padding": [
         0,
         0,
         0,
         0
     ],
-    "parent": "flxcRoot",
+    "parent": "conainer",
     "pf": "tmplComics",
     "render": true,
-    "skin": "s6700b87e78c475eb11fc6a3044d1e5e",
-    "text": "Label",
+    "skin": "sdf350b29a974302aae36660ddc5441d",
+    "text": "CONTENT",
     "toolTip": "",
-    "tooltip": "",
-    "top": "10dp",
-    "wType": "Label",
+    "top": "50dp",
+    "wType": "RichText",
     "widgetAlignment": 5,
+    "widgetalignment": 5,
     "width": {
         "type": "ref",
         "value": "preferred"
