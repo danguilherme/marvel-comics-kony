@@ -1,0 +1,18 @@
+{
+	"AS_Form_ba401b1b0d3b4f5f8d3e9825531e354a": {
+		"id": "AS_Form_ba401b1b0d3b4f5f8d3e9825531e354a",
+		"type": "ACTION_SEQUENCE",
+		"name": "ASfrmCharacters",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION___1529efc9f0ab474a9c3ebef1044fa8b4",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "form_frmCharacters",
+				"display": "form_frmCharacters",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}
