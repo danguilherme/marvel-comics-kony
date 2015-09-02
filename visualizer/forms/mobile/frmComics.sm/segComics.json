@@ -1,0 +1,179 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "comic": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "content": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_rowTemplateId": "tmplComics",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowMode": 0,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerWeight": 100,
+    "containerweight": 100,
+    "counter": "00",
+    "data": [
+        {
+            "comic": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "content": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "RichText"
+            },
+            "thumbnail": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            }
+        }
+    ],
+    "enabled": false,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupCells": false,
+    "groupcells": false,
+    "hasSections": false,
+    "height": "100%",
+    "id": "segComics",
+    "indicator": "none",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isVisible": true,
+    "isvisible": true,
+    "kuid": "3fab9077e62042dbbcae11ad018b6903",
+    "left": "0dp",
+    "margin": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needPageIndicator": true,
+    "needpageindicator": true,
+    "orientation": 2,
+    "padding": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "pageOffDotImage": "pageOffDot.png",
+    "pageOnDotImage": "pageOnDot.png",
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxcContent",
+    "pf": "frmComics",
+    "render": true,
+    "retainSelection": false,
+    "retainselection": false,
+    "rowFocusSkin": "s278bf36005748e9858b452171720473",
+    "rowSkin": "sa0da3a2885e4634b9e275f643b59fb5",
+    "rowTemplateId": "d093a7f9dd744d56abf53494b1667034",
+    "rowcounter": 0,
+    "rowfocusskin": "s278bf36005748e9858b452171720473",
+    "rowskin": "sa0da3a2885e4634b9e275f643b59fb5",
+    "rowtemplate": "conainer",
+    "screenLevelWidget": false,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderSkin": "saca687428dc4966892eb6a7e3fb6109",
+    "sectionheaderskin": "saca687428dc4966892eb6a7e3fb6109",
+    "selectedIndex": null,
+    "selectedIndices": null,
+    "selectedItems": null,
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionBehavior": "default",
+    "selectionbehavior": "default",
+    "separatorColor": "64646400",
+    "separatorRequired": false,
+    "separatorThickness": 1,
+    "separatorcolor": "64646400",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showScrollbars": false,
+    "showscrollbars": false,
+    "top": "0dp",
+    "viewType": "tableview",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetAlignment": 5,
+    "widgetDataMap": {
+        "comic": "comic",
+        "conainer": "conainer",
+        "content": "content",
+        "thumbnail": "thumbnail"
+    },
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "comic": "comic",
+        "conainer": "conainer",
+        "content": "content",
+        "thumbnail": "thumbnail"
+    },
+    "width": "100%",
+    "zIndex": 1,
+    "zindex": 1
+}
