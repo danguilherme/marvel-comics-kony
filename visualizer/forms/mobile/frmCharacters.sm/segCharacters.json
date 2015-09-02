@@ -200,7 +200,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionBehavior": "default",
     "selectionbehavior": "default",
     "separatorColor": "64646400",

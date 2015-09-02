@@ -4,7 +4,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "autoCapitalize": "none",
     "autoComplete": false,
@@ -51,13 +51,13 @@
     "contentAlignment": 4,
     "contentalignment": 4,
     "enabled": false,
-    "height": "10%",
+    "height": "50dp",
     "id": "txtSearchCharacter",
     "info": null,
     "isVisible": true,
     "isvisible": true,
     "keyboardtype": "A",
-    "kuid": "f19abc5320a04e54b2a9528586564119",
+    "kuid": "40b30a1921d64fdaa5029f40eb582716",
     "left": "0dp",
     "margin": [
         0,
@@ -75,7 +75,7 @@
         0,
         0
     ],
-    "parent": "flxcRoot",
+    "parent": "flxcSearch",
     "pf": "frmCharacters",
     "placeholder": "Search characters by name",
     "render": true,
@@ -91,7 +91,7 @@
     "viewtype": "default",
     "wType": "TextField",
     "widgetAlignment": 5,
-    "width": "100%",
+    "width": "80%",
     "zIndex": 1,
     "zindex": 1
 }
