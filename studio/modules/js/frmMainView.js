@@ -1,4 +1,4 @@
-function form_frmMain() {
+function frmMainView() {
   function init() {
     frmMain.flxcRoot.btnOpenCharactersForm.onClick = btnOpenCharactersForm_onClick;
     frmMain.flxcRoot.btnOpenComicsForm.onClick = btnOpenComicsForm_onClick;

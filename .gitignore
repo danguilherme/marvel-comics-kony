@@ -1,7 +1,12 @@
 .DS_Store
+
+studio/.vizmetadata
+studio/.vizimportexport.log
 studio/jssrc
 studio/lua_widget_m4_info.properties
 studio/middleware.properties
 studio/upgrade_actions_*.properties
 studio/widgetinfo.properties
 studio/formicon.properties
+studio/context.properties
+studio/defaults/defaults.properties

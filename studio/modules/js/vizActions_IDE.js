@@ -16,18 +16,18 @@ function ASfrmCharacters() {
 return AS_Form_ba401b1b0d3b4f5f8d3e9825531e354a();
 }
 function AS_Form_ba401b1b0d3b4f5f8d3e9825531e354a() {
-form_frmCharacters.call(this);
+frmCharactersView.call(this);
 
 }function ASfrmComics() {
 return AS_Form_bb190d6472e84af39d87e2c12153b4e4();
 }
 function AS_Form_bb190d6472e84af39d87e2c12153b4e4() {
-form_frmComics.call(this);
+frmComicsView.call(this);
 
 }function ASfrmMain() {
 return AS_Form_23c49759eabc4f8ab52dd3f351123ccb();
 }
 function AS_Form_23c49759eabc4f8ab52dd3f351123ccb() {
-form_frmMain.call(this);
+frmMainView.call(this);
 
 }

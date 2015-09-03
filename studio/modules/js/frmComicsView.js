@@ -1,4 +1,4 @@
-function form_frmComics() {
+function frmComicsView() {
   function init() {
 
   }
