@@ -1,4 +1,4 @@
-function form_frmCharacters() {
+function frmCharactersView() {
   function init() {
     frmCharacters.flxcRoot.segCharacters.onRowClick = segCharacters_onRowClick;
   }

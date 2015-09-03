@@ -7,8 +7,8 @@
 			{
 				"id": "INVOKE_FUNCTION___59ee90aa8b03403abb543f639ec9fd44",
 				"type": "INVOKE_FUNCTION",
-				"sequenceKUID": "form_frmMain",
-				"display": "form_frmMain",
+				"sequenceKUID": "frmMainView",
+				"display": "frmMainView",
 				"inputparams": [],
 				"parentId": null,
 				"callbackType": null

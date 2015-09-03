@@ -7,8 +7,8 @@
 			{
 				"id": "INVOKE_FUNCTION___b94384823c4746229b4e005a9cc74362",
 				"type": "INVOKE_FUNCTION",
-				"sequenceKUID": "form_frmComics",
-				"display": "form_frmComics",
+				"sequenceKUID": "frmComicsView",
+				"display": "frmComicsView",
 				"inputparams": [],
 				"parentId": null,
 				"callbackType": null
