@@ -1,2 +1,6 @@
 .DS_Store
 studio/jssrc
+studio/lua_widget_m4_info.properties
+studio/middleware.properties
+studio/upgrade_actions_*.properties
+studio/widgetinfo.properties
