@@ -126,6 +126,7 @@
         <height>false</height>
     </overridePerferred>
     <projectName>Marvel</projectName>
+    <formName>frmCharacters</formName>
     <platform>0</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
@@ -637,6 +638,18 @@
         <title></title>
         <init>
             <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value>frmCharactersView.init();</value>
+                        </entry>
+                    </exprMap>
+                </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>
@@ -6296,8 +6309,8 @@
                         <rowWidth>100</rowWidth>
                         <top>0</top>
                         <width>100</width>
-                        <xlocation>220</xlocation>
-                        <ylocation>0</ylocation>
+                        <xlocation>0</xlocation>
+                        <ylocation>220</ylocation>
                         <zOrder>1</zOrder>
                     </flexConstraints>
                     <focusSkinId>Skin Defaults</focusSkinId>
@@ -7875,8 +7888,8 @@
                     <rowWidth>100</rowWidth>
                     <top>0</top>
                     <width>100</width>
-                    <xlocation>220</xlocation>
-                    <ylocation>0</ylocation>
+                    <xlocation>0</xlocation>
+                    <ylocation>220</ylocation>
                     <zOrder>1</zOrder>
                 </flexConstraints>
                 <focusSkinId>Skin Defaults</focusSkinId>

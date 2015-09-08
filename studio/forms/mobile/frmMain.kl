@@ -126,6 +126,7 @@
         <height>false</height>
     </overridePerferred>
     <projectName>Marvel</projectName>
+    <formName>frmMain</formName>
     <platform>0</platform>
     <mode>0</mode>
     <formCategory>0</formCategory>
@@ -637,6 +638,18 @@
         <title>Marvel Comics</title>
         <init>
             <evtSequence>
+                <actionList xsi:type="eventExpressionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>5</type>
+                    <expr></expr>
+                    <exprMap>
+                        <entry>
+                            <key>js</key>
+                            <value></value>
+                        </entry>
+                    </exprMap>
+                </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>
@@ -1093,7 +1106,7 @@
                     <top>5</top>
                     <width>90</width>
                     <xlocation>22</xlocation>
-                    <ylocation>0</ylocation>
+                    <ylocation>22</ylocation>
                     <zOrder>1</zOrder>
                 </flexConstraints>
                 <widgetID>01ae98de02d747119c1f04a0ef5df642</widgetID>
@@ -1948,8 +1961,8 @@
                     <rowWidth>100</rowWidth>
                     <top>5</top>
                     <width>90</width>
-                    <xlocation>94</xlocation>
-                    <ylocation>0</ylocation>
+                    <xlocation>22</xlocation>
+                    <ylocation>94</ylocation>
                     <zOrder>1</zOrder>
                 </flexConstraints>
                 <widgetID>144367923193476786158f7473472771</widgetID>
