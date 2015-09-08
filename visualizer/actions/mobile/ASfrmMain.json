@@ -5,11 +5,9 @@
 		"name": "ASfrmMain",
 		"actions": [
 			{
-				"id": "INVOKE_FUNCTION___59ee90aa8b03403abb543f639ec9fd44",
-				"type": "INVOKE_FUNCTION",
-				"sequenceKUID": "frmMainView",
-				"display": "frmMainView",
-				"inputparams": [],
+				"id": "ADD_SNIPPET__92447e3242da46cebfdada06aeb5af87",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "frmMainView.init();",
 				"parentId": null,
 				"callbackType": null
 			}

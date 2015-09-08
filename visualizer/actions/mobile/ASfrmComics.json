@@ -5,11 +5,9 @@
 		"name": "ASfrmComics",
 		"actions": [
 			{
-				"id": "INVOKE_FUNCTION___b94384823c4746229b4e005a9cc74362",
-				"type": "INVOKE_FUNCTION",
-				"sequenceKUID": "frmComicsView",
-				"display": "frmComicsView",
-				"inputparams": [],
+				"id": "ADD_SNIPPET__8adbcbf6ed764f6bb3530d2cccbd4421",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "frmComicsView.init();",
 				"parentId": null,
 				"callbackType": null
 			}
