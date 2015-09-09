@@ -1,10 +1,6 @@
 var frmCharactersView = function() {
   function init() {
     frmCharacters.flxcRoot.segCharacters.onRowClick = segCharacters_onRowClick;
-    
-
-    if (typeof(frmCharactersController) !== "undefined")
-      frmCharactersController();
   }
   
   /* EVENT HANDLERS */
@@ -17,6 +13,9 @@ var frmCharactersView = function() {
     frmCharacters.show();
   }
 
+  
+  alert('frmCharactersView.js');
+  
   return {
     init: init,
     open: open

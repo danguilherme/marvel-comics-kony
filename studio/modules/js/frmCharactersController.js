@@ -1,6 +1,5 @@
-function frmCharactersController() {
-  function init() {
-  }
-  
-  init();
-}
+var frmCharactersController = function() {
+	return {
+		init: function() {}
+	}
+}();

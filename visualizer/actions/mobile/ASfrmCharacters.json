@@ -5,7 +5,7 @@
 		"name": "ASfrmCharacters",
 		"actions": [
 			{
-				"id": "ADD_SNIPPET__9246c64acb1040debb8df9ff5444bdef",
+				"id": "ADD_SNIPPET__8b6463497e004d9196ca1aea13a03dff",
 				"type": "ADD_SNIPPET",
 				"codeSnippet": "frmCharactersView.init();",
 				"parentId": null,

@@ -5,7 +5,7 @@
 		"name": "ASfrmMain",
 		"actions": [
 			{
-				"id": "ADD_SNIPPET__92447e3242da46cebfdada06aeb5af87",
+				"id": "ADD_SNIPPET__06b083be1ca94902898ae08dc810f02c",
 				"type": "ADD_SNIPPET",
 				"codeSnippet": "frmMainView.init();",
 				"parentId": null,

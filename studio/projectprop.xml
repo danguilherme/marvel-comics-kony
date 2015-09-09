@@ -13,7 +13,7 @@
     <attributes name="wp8fliplargekey" value=""/>
     <attributes name="READ_SMS" value="false"/>
     <attributes name="DEVICE_POWER" value="false"/>
-    <attributes name="cloud_selected_ipaddress_list" value="http://127.0.0.1:8080"/>
+    <attributes name="cloud_selected_ipaddress_list" value="http://172.16.19.12:8080,http://127.0.0.1:8080"/>
     <attributes name="tcphoneformatindicator" value="false"/>
     <attributes name="antialiaseddrawing" value="false"/>
     <attributes name="Pictures_Library_Access" value="true"/>
@@ -160,7 +160,7 @@
     <attributes name="DELETE_PACKAGES" value="false"/>
     <attributes name="bb10packageid" value=""/>
     <attributes name="ACCESS_WIFI_STATE" value="false"/>
-    <attributes name="mwaddrkey" value="172.16.19.25"/>
+    <attributes name="mwaddrkey" value="172.16.19.12"/>
     <attributes name="SET_WALLPAPER" value="false"/>
     <attributes name="wp8cyclesmallkey" value=""/>
     <attributes name="WP8_ID_CAP_IDENTITY_USER" value="true"/>

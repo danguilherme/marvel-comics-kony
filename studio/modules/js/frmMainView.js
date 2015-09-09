@@ -6,10 +6,12 @@ var frmMainView = function() {
   
   /* EVENT HANDLERS */
   function btnOpenCharactersForm_onClick() {
+  	kony.modules.loadFunctionalModule("characters");
     frmCharacters.show();
   }
   
   function btnOpenComicsForm_onClick() {
+  	kony.modules.loadFunctionalModule("comics");
     frmComics.show();
   }
 
@@ -19,8 +21,6 @@ var frmMainView = function() {
   }
   
   alert('frmMainView.js');
-  alert(JSON.stringify(appConfig));
-  //open();
   
   return {
     init: init,

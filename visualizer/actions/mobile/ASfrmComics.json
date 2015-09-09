@@ -5,7 +5,7 @@
 		"name": "ASfrmComics",
 		"actions": [
 			{
-				"id": "ADD_SNIPPET__8adbcbf6ed764f6bb3530d2cccbd4421",
+				"id": "ADD_SNIPPET__99e3aad0344c437da9fea13bc3311b66",
 				"type": "ADD_SNIPPET",
 				"codeSnippet": "frmComicsView.init();",
 				"parentId": null,
