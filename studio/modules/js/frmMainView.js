@@ -18,6 +18,10 @@ var frmMainView = function() {
     frmMain.show();
   }
   
+  alert('frmMainView.js');
+  alert(JSON.stringify(appConfig));
+  //open();
+  
   return {
     init: init,
     open: open

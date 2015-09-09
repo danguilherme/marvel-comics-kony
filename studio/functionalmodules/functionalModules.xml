@@ -6,6 +6,13 @@ dependentModules : Other functional modules required for this module. - Optional
 Either forms or modules should be provided for a module.
 **/-->
 <functionalModules projectName="Marvel">
+    <functionalModule name="KonyModules" loadOnStartUp="true">
+        <jsModules>kony_sdk.js,konylibrary.js</jsModules>
+    </functionalModule>
+    <functionalModule name="init" loadOnStartUp="true">
+   		<views>frmMain</views>
+        <jsModules>frmMainView.js</jsModules>
+    </functionalModule>
     <functionalModule name="md5">
         <jsModules>mod_md5.js</jsModules>
     </functionalModule>
