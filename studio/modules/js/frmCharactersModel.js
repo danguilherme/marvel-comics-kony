@@ -1,0 +1,5 @@
+var frmCharactersModel = function() {
+	return {
+		
+	};
+}();
