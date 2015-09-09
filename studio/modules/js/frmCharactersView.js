@@ -13,6 +13,9 @@ var frmCharactersView = function() {
     frmCharacters.show();
   }
 
+  
+  alert('frmCharactersView.js');
+  
   return {
     init: init,
     open: open
