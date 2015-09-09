@@ -1,4 +1,4 @@
-function frmMainView() {
+var frmMainView = function() {
   function init() {
     frmMain.flxcRoot.btnOpenCharactersForm.onClick = btnOpenCharactersForm_onClick;
     frmMain.flxcRoot.btnOpenComicsForm.onClick = btnOpenComicsForm_onClick;
@@ -12,6 +12,14 @@ function frmMainView() {
   function btnOpenComicsForm_onClick() {
     frmComics.show();
   }
+
+  /* METHODS */
+  function open() {
+    frmMain.show();
+  }
   
-  init();
-}
+  return {
+    init: init,
+    open: open
+  };
+}();
