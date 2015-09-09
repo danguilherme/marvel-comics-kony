@@ -8,7 +8,7 @@ Either forms or modules should be provided for a module.
 <functionalModules projectName="Marvel">
     <functionalModule name="startup" loadOnStartUp="true">
     	<views>frmMain</views>
-        <jsModules>vizActions_IDE,mod_md5,frmMainView</jsModules>
+        <jsModules>vizActions_IDE,frmMainView</jsModules>
     </functionalModule>
     <functionalModule name="comics">
     	<views>tmplComics,frmComics</views>
