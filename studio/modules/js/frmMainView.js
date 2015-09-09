@@ -18,6 +18,8 @@ var frmMainView = function() {
     frmMain.show();
   }
   
+  alert('frmMainView.js');
+  
   return {
     init: init,
     open: open

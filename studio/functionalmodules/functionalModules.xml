@@ -1,0 +1,13 @@
+<!--/**
+views : list of ids of forms, popups, templates (seg,datagrid, header, footer... etc)  - Optional
+jsModules : js modules required for this functional module, - Optional
+dependentModules : Other functional modules required for this module. - Optional
+
+Either forms or modules should be provided for a module.
+**/-->
+<functionalModules projectName="Marvel">
+    <functionalModule name="startup" loadOnStartUp="true">
+    	<views>frmMain</views>
+        <jsModules>vizActions_IDE.js,mod_md5.js,frmMainView.js</jsModules>
+    </functionalModule>
+</functionalModules>
