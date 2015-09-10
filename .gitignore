@@ -13,3 +13,4 @@ studio/defaults/defaults.properties
 studio/resources/customwidgets/mappings/android/jsRichClientCustomWidget.xml
 studio/Marvelmappings.xml
 jsRichClientCustomWidget.xml
+**/.tern-project
