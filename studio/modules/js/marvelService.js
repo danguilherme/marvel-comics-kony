@@ -9,7 +9,20 @@ var marvelService = function() {
     return md5(timestamp + privateKey + publicKey);
   }
 
-  function doRequest(resource, callback) {
+  /**
+   * Makes a request to the Marvel API
+   * @param  {String}   resource The REST resource name
+   * @param  {Function} callback (optional) Called when request is finished.
+   */
+  function consumeApi(resource, callback) {
+    var timestamp = +new Date();
+    var url = baseUrl + resource + '?apikey=' + publicKey + '&ts=' + timestamp + '&hash=' + createHash(timestamp);
+
+    return http.get(url, callback);
+  }
+
+  /* TEST CODE */
+  function getUsingServiceSyntax(resource, callback) {
     var timestamp = +new Date();
     var url = baseUrl + resource + '?apikey=' + publicKey + '&ts=' + timestamp + '&hash=' + createHash(timestamp);
 
@@ -34,8 +47,9 @@ var marvelService = function() {
       alert('opstatus = ' + resulttable["opstatus"]);
     }
   }
+  /* [END] TEST CODE */
 
   return {
-    doRequest: doRequest
+    doRequest: consumeApi
   };
 }();
