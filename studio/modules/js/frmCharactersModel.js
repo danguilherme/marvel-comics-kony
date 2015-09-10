@@ -1,10 +1,8 @@
 var frmCharactersModel = function() {
 	var RESOURCE_ID = 'characters';
 
-	function getCharacters() {
-		marvelService.doRequest(RESOURCE_ID, function() {
-			alert(arguments);
-		});
+	function getCharacters(callback) {
+		marvelService.doRequest(RESOURCE_ID, callback);
 	}
 
 	return {

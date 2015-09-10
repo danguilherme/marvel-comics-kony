@@ -1,20 +1,16 @@
-var frmCharactersView = function() {
-  function init() {
-    frmCharacters.flxcRoot.segCharacters.onRowClick = segCharacters_onRowClick;
-  }
+(function(global) {
+  global.frmCharactersView = new View('frmCharacters', {
+    init: function() {
+      frmCharacters.flxcRoot.segCharacters.onRowClick = segCharacters_onRowClick;
+    },
+
+    updateView: function() {
+      alert(this.viewBag().characters);
+    }
+  });
 
   /* EVENT HANDLERS */
   function segCharacters_onRowClick() {
     alert(arguments);
   }
-
-  /* METHODS */
-  function open() {
-    frmCharacters.show();
-  }
-
-  return {
-    init: init,
-    open: open
-  };
-}();
+}(this));

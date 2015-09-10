@@ -1,8 +1,9 @@
-function frmComicsController() {
+var frmComicsController = function() {
   function init() {
 
   }
-  
-  init();
-}
 
+  return {
+    init: init
+  };
+}();

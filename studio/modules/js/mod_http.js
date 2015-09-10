@@ -53,11 +53,16 @@ var http = function() {
       var readyState = +request.readyState;
       var status = +request.status;
 
+      kony.print('Request readyState changed: ' + readyState + ' / ' + constants.HTTP_READY_STATE_DONE);
+
       if (readyState === constants.HTTP_READY_STATE_DONE) {
-        if (status >= 200 && status <= 299)
+        if (status >= 200 && status <= 299) {
+          kony.print('Request successfully performed. HTTP Status = ' + status);
           onSuccess && onSuccess(request.response);
-        else
+        } else {
+          kony.print('Request failed. HTTP Status = ' + status);
           onFail && onFail(request);
+        }
       }
     }
   }
@@ -65,25 +70,29 @@ var http = function() {
   function get(url, successCallback, errorCallback) {
     var request = createRequest(constants.HTTP_METHOD_GET, url);
 
-    request.onReadyStateChange = onReadyStateChange(successCallback, errorCallback);
+    request.onReadyStateChange = onReadyStateChange.call(request, successCallback, errorCallback);
 
+    kony.print('Performing request to ' + url);
     request.send();
+
     return request;
   }
 
   function post(url, body, successCallback, errorCallback) {
     var request = createRequest(constants.HTTP_METHOD_POST, url);
 
-    request.onReadyStateChange = onReadyStateChange(successCallback, errorCallback);
+    request.onReadyStateChange = onReadyStateChange.call(request, successCallback, errorCallback);
 
+    kony.print('Performing request to ' + url);
     request.send(!body ? null : createFormDataFromObject(body));
+
     return request;
   }
 
   return {
     get: get,
     post: post
-    // put: put,
-    // delete: delete
+      // put: put,
+      // delete: delete
   }
 }();
