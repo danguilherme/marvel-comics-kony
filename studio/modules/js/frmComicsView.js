@@ -10,9 +10,7 @@ var frmComicsView = function() {
   }
 
   /* EVENT HANDLERS */
-  
-  alert('frmComicsView.js');
-  
+
   return {
   	init: init,
   	open: open
