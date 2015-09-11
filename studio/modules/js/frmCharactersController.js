@@ -4,7 +4,10 @@ var frmCharactersController = function() {
 		frmCharactersModel.getCharacters(
 			function(data) {
 				kony.print("CHARACTERS LOADED");
-				frmCharactersView.viewBag().add('characters', data).notifyChanges();
+				frmCharactersView
+					.viewBag()
+					.add('characters', data)
+					.notifyChanges();
 			},
 			function() {
 				alert('feiou')

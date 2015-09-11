@@ -1,18 +1,14 @@
-var frmComicsView = function() {
-  function init() {
-    if (typeof(frmComicsController) !== "undefined")
-      frmComicsController();
-  }
+(function(global) {
+  global.frmComicsView = new View('frmComics', {
+    init: function() {
+      if (typeof(frmComicsController) !== "undefined")
+        frmComicsController();
 
-  function open(maxItems) {
-  	maxItems = maxItems || 20;
-  	frmComics.show();
-  }
-
-  /* EVENT HANDLERS */
-
-  return {
-  	init: init,
-  	open: open
-  };
-}();
+      this.dispatchEvent('ready');
+    },
+    open: function(maxItems) {
+    	maxItems = maxItems || 20;
+    	frmComics.show();
+    }
+  });
+}(this));

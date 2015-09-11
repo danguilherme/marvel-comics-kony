@@ -1,5 +1,7 @@
 var frmMainView = function() {
   function init() {
+    logger.setLevel(logger.logLevels.VERBOSE);
+
     frmMain.flxcRoot.btnOpenCharactersForm.onClick = btnOpenCharactersForm_onClick;
     frmMain.flxcRoot.btnOpenComicsForm.onClick = btnOpenComicsForm_onClick;
   }

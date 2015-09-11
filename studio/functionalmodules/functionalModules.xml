@@ -8,13 +8,18 @@ Either forms or modules should be provided for a module.
 <functionalModules projectName="Marvel">
     <functionalModule name="startup" loadOnStartUp="true">
     	<views>frmMain</views>
-      <jsModules>vizActions_IDE,mod_mvc,frmMainView</jsModules>
-      <dependentModules>services</dependentModules>
+      <jsModules>vizActions_IDE,frmMainView</jsModules>
+      <dependentModules>modules,services</dependentModules>
     </functionalModule>
 
       <functionalModule name="services">
-        <jsModules>mod_http,mod_md5,marvelService</jsModules>
+        <jsModules>marvelService</jsModules>
+        <dependentModules>modules</dependentModules>
       </functionalModule>
+
+        <functionalModule name="modules">
+          <jsModules>mod_utils,mod_enum,mod_log,mod_md5,mod_http,mod_events,mod_mvc</jsModules>
+        </functionalModule>
 
     <functionalModule name="comics">
     	<views>tmplComics,frmComics</views>

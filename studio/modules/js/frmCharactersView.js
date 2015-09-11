@@ -2,6 +2,8 @@
   global.frmCharactersView = new View('frmCharacters', {
     init: function() {
       frmCharacters.flxcRoot.segCharacters.onRowClick = segCharacters_onRowClick;
+
+      this.dispatchEvent('ready');
     },
 
     updateView: function() {
