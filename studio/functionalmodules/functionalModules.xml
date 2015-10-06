@@ -6,28 +6,33 @@ dependentModules : Other functional modules required for this module. - Optional
 Either forms or modules should be provided for a module.
 **/-->
 <functionalModules projectName="Marvel">
-    <functionalModule name="startup" loadOnStartUp="true">
-    	<views>frmMain</views>
-      <jsModules>vizActions_IDE,frmMainView</jsModules>
-      <dependentModules>modules,services</dependentModules>
-    </functionalModule>
+  <functionalModule loadOnStartUp="true" name="startup">
+    <jsModules>vizActions_IDE,app</jsModules>
+    <dependentModules>modules,services,main</dependentModules>
+  </functionalModule>
 
-      <functionalModule name="services">
-        <jsModules>marvelService</jsModules>
-        <dependentModules>modules</dependentModules>
-      </functionalModule>
+  <functionalModule name="modules">
+    <jsModules>mod_utils,mod_enum,mod_log,mod_md5,mod_http,mod_EventTarget,mod_mvc</jsModules>
+  </functionalModule>
 
-        <functionalModule name="modules">
-          <jsModules>mod_utils,mod_enum,mod_log,mod_md5,mod_http,mod_events,mod_mvc</jsModules>
-        </functionalModule>
+  <functionalModule name="main">
+    <views>frmMain</views>
+    <jsModules>main_view</jsModules>
+    <dependentModules>modules,services</dependentModules>
+  </functionalModule>
 
-    <functionalModule name="comics">
-    	<views>tmplComics,frmComics</views>
-      <jsModules>frmComicsView</jsModules>
-    </functionalModule>
+  <functionalModule name="services">
+    <jsModules>marvelService</jsModules>
+    <dependentModules>modules</dependentModules>
+  </functionalModule>
 
-    <functionalModule name="characters">
-    	<views>tmplCharacterItem,frmCharacters</views>
-      <jsModules>frmCharactersView,frmCharactersModel,frmCharactersController</jsModules>
-    </functionalModule>
+  <functionalModule name="comics">
+    <views>tmplComics,frmComics</views>
+    <jsModules>comics_view</jsModules>
+  </functionalModule>
+
+  <functionalModule name="characters">
+    <views>tmplCharacterItem,frmCharacters</views>
+    <jsModules>characters_view,characters_model,characters_controller</jsModules>
+  </functionalModule>
 </functionalModules>

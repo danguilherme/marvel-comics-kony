@@ -1,5 +1,7 @@
 (function(global) {
-  var TAG = 'mod_mvc';
+  "use strict";
+
+  var TAG = "mod_mvc";
 
   /* VIEW */
   /**
@@ -11,12 +13,15 @@
    */
   function View(formId, config) {
     var me = this;
-    extend(this, config);
+    utils.extend(this, {}, config);
 
-    logger.verbose(TAG, 'View created for ' + formId);
+    this.formId = formId;
+
+
+    logger.verbose(TAG, "View created for " + formId);
 
     var viewBag = new ViewBag();
-    viewBag.addEventListener('change', onViewBagChange);
+    viewBag.addEventListener("change", onViewBagChange);
 
     function onViewBagChange() {
       me.updateView();
@@ -24,21 +29,21 @@
 
     this.viewBag = function() {
       return viewBag;
-    }
+    };
 
     /**
      * Opens the form this view represents by calling Kony `show` method.
      *
      * @function open
      */
-    this.open = this.open || function() {
-      this.form().show();
-    }
   }
   View.prototype.form = function() {
-    return global[formId];
+    return global[this.formId];
   };
-  extend(View.prototype, new EventTarget());
+  View.prototype.open = function() {
+    this.form().show();
+  };
+  utils.extend(View.prototype, new EventTarget());
 
   /**
    * Holds data to be transfered between controllers and views.
@@ -53,20 +58,20 @@
      * @return {ViewBag}       Its instance for chaining.
      */
     this.add = function(key, value) {
-      logger.info(TAG, 'ViewBag add item; ' + key + ' = ' + (!!value ? JSON.stringify(value) : value));
+      logger.info(TAG, "ViewBag add item; " + key + " = " + (value ? JSON.stringify(value) : value));
 
       me[key] = value;
       return me;
-    }
+    };
 
     this.notifyChanges = function() {
-      logger.verbose(TAG, 'ViewBag notifyChanges');
+      logger.verbose(TAG, "ViewBag notifyChanges");
 
-      me.dispatchEvent('change');
+      me.dispatchEvent("change");
       return me;
     };
   }
-  extend(ViewBag.prototype, new EventTarget());
+  utils.extend(ViewBag.prototype, new EventTarget());
 
   /* MODEL */
   function Model() {
@@ -78,5 +83,9 @@
 
   }
 
-  global.View = View;
+  global.mvc = {
+    Model: Model,
+    View: View,
+    Controller: Controller
+  };
 }(this));

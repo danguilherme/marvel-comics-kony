@@ -1,18 +1,21 @@
 (function(global) {
+  "use strict";
+
   /**
    * EventTarget is an interface implemented by objects that can receive events and may have listeners for them.
    */
   function EventTarget() {
     /**
      * Get the listener functions bound to this EventTarget instance
-     * 
+     *
      * @return {Object} An object with event name and an array of handler functions.
      */
     this.getEventListeners = function() {
-      if (!this.eventListeners)
+      if (!this.eventListeners) {
         this.eventListeners = {};
+      }
       return this.eventListeners;
-    }
+    };
 
     /**
      * Registers a handler to be executed when the given event is dispatched
@@ -23,13 +26,14 @@
      */
     this.addEventListener = function(eventName, handler) {
       this.getEventListeners()[eventName] = this.getEventListeners()[eventName] || [];
-      if (!handler || typeof(handler) !== 'function')
+      if (!handler || typeof handler !== "function") {
         return false;
+      }
 
       this.getEventListeners()[eventName].push(handler);
 
       return true;
-    }
+    };
 
     /**
      * Removes a previously registered handler from the given event.
@@ -39,13 +43,16 @@
      */
     this.removeEventListener = function(eventName, handler) {
       var eventCollection = this.getEventListeners()[eventName];
-      if (!eventCollection || eventCollection.length == 0)
+      if (!eventCollection || eventCollection.length === 0) {
         return;
+      }
 
-      for (var i = 0; i < eventCollection.length; i++)
-        if (eventCollection[i] === handler)
+      for (var i = 0; i < eventCollection.length; i++) {
+        if (eventCollection[i] === handler) {
           eventCollection.splice(i, 1);
-    }
+        }
+      }
+    };
 
     /**
      * Triggers the given event.
@@ -54,11 +61,19 @@
      */
     this.dispatchEvent = function(eventName) {
       var eventCollection = this.getEventListeners()[eventName];
-      if (!eventCollection || eventCollection.length == 0)
+      if (!eventCollection || eventCollection.length === 0) {
         return;
+      }
 
-      for (var i = 0; i < eventCollection.length; i++)
+      for (var i = 0; i < eventCollection.length; i++) {
         eventCollection[i].call(this);
-    }
+      }
+    };
+
+    this.on = this.addEventListener;
+    this.off = this.removeEventListener;
+    this.trigger = this.dispatchEvent;
   }
+
+  global.EventTarget = EventTarget;
 }(this));
