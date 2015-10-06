@@ -126,6 +126,8 @@ kony.sdk.claimsRefresh = function(callback, failureCallback) {
 						konyRef.currentClaimToken = null;
 						konyRef.claimTokenExpiry = null;
 						konyRef.currentRefreshToken = null;
+						//setting the anonymous provider as true to access the public protected urls without any issue
+						konyRef.isAnonymousProvider = true;
 						kony.sdk.verifyAndCallClosure(failureCallback, kony.sdk.error.getAuthErrObj(data));
 					});
 			}
@@ -387,11 +389,10 @@ kony.sdk.prototype.initWithServiceDoc = function(appKey, appSecret, serviceDoc) 
 			}
 
 			if (konyRef.internalSdkObject) {
+				konyRef.internalSdkObject.initWithServiceDoc(appKey, appSecret, servConfig);
 				if (konyRef.internalSdkObject.setClientParams) {
 					konyRef.internalSdkObject.setClientParams(konyRef.getClientParams());
 				}
-
-				konyRef.internalSdkObject.initWithServiceDoc(appKey, appSecret, servConfig);
 				logger.log("### init::internal sdk object initialized");
 			}
 			logger.log("### init::_doInit::_processServiceDoc parsing service document done");
@@ -1167,6 +1168,8 @@ kony.sdk.resetCacheKeys = function(konyRef, _providerName) {
 			konyRef.currentBackEndToken = null;
 			konyRef.claimTokenExpiry = null;
 			konyRef.currentRefreshToken = null;
+			//setting the anonymous provider as true to access the public protected urls without any issue
+			konyRef.isAnonymousProvider = true;
 			if (_providerName) {
 				if (konyRef.tokens.hasOwnProperty(_providerName)) {
 					konyRef.tokens[_providerName] = null;
@@ -2824,7 +2827,7 @@ kony.setupsdks = function(initConfig, successCallBack, errorCallBack) {
       var subString2 = url.slice(index, url.length);
       var has = /[a-zA-Z0-9]/.test(subString2);
       if (!has) {
-        newUrl = subString + path;
+        newUrl = subString;
       } else {
         newUrl = url;
       }
