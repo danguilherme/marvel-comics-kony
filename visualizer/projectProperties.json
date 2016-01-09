@@ -1,25 +1,158 @@
 {
     "APPLICATION_THEME": "default",
+    "accountCloudGuid": "31faed67-61b2-44b9-aaff-bcd0d7980626",
     "appaddrkey": "",
     "appidkey": "Marvel",
+    "applogokey": "",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "53ec2232d85745bf9b67070a93c7e9eb",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "8f1f22520a404950bb15cf7f1dc83624",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "75ac4cbcb3c647a68a1853bf043fdd9b",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "97f26867eaa74296b65194b2794a5a2c",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "focusSkin": null,
+        "focusskin": null,
+        "mobile": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "a36169e321c14a599c78a5a7f94f9408",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "a675e233b3f54998b8e4a8c234627d24",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "53aa994f49fa4d8694ef845e1df106c2",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "b3788a35c6044460892fa0bbbf169a35",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "osPlatform": "",
+        "osVersion": "iOS7",
+        "skin": null,
+        "tablet": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "1ea6b8c73f534640a11a104da1e4be02",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "6922e63c7071468484f1d51d4e12cbfc",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "72c70eec4bf740f3852ea30e81152d91",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "29366831d7e24d5aac233e2e66af5fca",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "wType": "Appmenu"
+    },
     "appnamekey": "Marvel",
     "apppackagekey": "",
     "appversionkey": "1.0.0",
     "build": "debug",
+    "createdVizVersion": "2.5.0",
+    "createdgaversion": "6.5.0",
+    "currentgaversion": "6.5.0",
+    "defaulttheme": "defaultTheme",
+    "desktopwebaligenmentoption": "Left",
+    "desktopwebbasefontsize": "16",
+    "desktopwebwidthoption": "percentage",
+    "ipadlandscapemodekey": "portrait",
+    "iphonewebshrtcutkey": "",
     "isNewAppWithRespectToAndroidPackageName": "",
-    "konyVizVersion": "2.5.0",
+    "konyVizVersion": "2.5.2.2",
     "mwaddrkey": "",
     "mwhttpsportkey": "",
     "mwportkey": "",
     "project.type": "js",
-    "project_version": "sprint20",
+    "projectCloudGuid": "b3397638-ed14-4612-908e-e7836e27f4ad",
+    "project_version": "sprint21",
+    "prototype": {
+        "createdBy": "Guilherme Ventura",
+        "createdById": "31faed67-61b2-44b9-aaff-bcd0d7980626",
+        "createdOn": "2015-08-31T20:29:35.797Z",
+        "resourceId": "7ce28dfb-9b16-49af-bc7c-1173b7e681f1",
+        "shareGuid": "B4CLW"
+    },
     "startupformkey": "frmMain",
+    "supportedorientations": [
+        "portrait"
+    ],
     "vendornamekey": "Company",
-    "winmobileguidkey": "",
-    "defaulttheme": "defaultTheme",
-    "createdgaversion": "6.5.0",
-    "currentgaversion": "6.5.0",
-    "wap_ip_fontsize": "12",
     "wap_android240_fontsize": "10",
     "wap_android320_fontsize": "12",
     "wap_android360_fontsize": "13",
@@ -27,153 +160,21 @@
     "wap_android440_fontsize": "15",
     "wap_android480_fontsize": "16",
     "wap_android640_fontsize": "19",
-    "wap_spaipad_fontsize": "17",
-    "wap_spaandroidtab_fontsize": "17",
-    "wap_spaandroidtabldpi_fontsize": "17",
-    "wap_spaandroidtabmdpi_fontsize": "14",
-    "wap_spaandroidtabhdpi_fontsize": "16",
-    "wap_spaandroidtabxhdpi_fontsize": "18",
-    "wap_winphone320_fontsize": "12",
-    "wap_winphone480_fontsize": "12",
-    "wap_spawindowstab_fontsize": "17",
     "wap_bb240_fontsize": "12",
     "wap_bb320_fontsize": "15",
     "wap_bb360_fontsize": "13",
     "wap_bb400_fontsize": "14",
     "wap_bb440_fontsize": "15",
     "wap_bb480_fontsize": "17",
-    "ipadlandscapemodekey": "portrait",
-    "supportedorientations": [
-        "portrait"
-    ],
-    "desktopwebbasefontsize": "16",
-    "desktopwebwidthoption": "percentage",
-    "desktopwebaligenmentoption": "Left",
-    "iphonewebshrtcutkey": "",
-    "applogokey": "",
-    "appmenu": {
-        "mobile": {
-            "data": [
-                {
-                    "id": "appmenuitemid1",
-                    "title": "Item 1",
-                    "icon": {
-                        "default": "option1.png"
-                    },
-                    "kuid": "a36169e321c14a599c78a5a7f94f9408"
-                },
-                {
-                    "id": "appmenuitemid2",
-                    "title": "Item 2",
-                    "icon": {
-                        "default": "option2.png"
-                    },
-                    "kuid": "a675e233b3f54998b8e4a8c234627d24"
-                },
-                {
-                    "id": "appmenuitemid3",
-                    "title": "Item 3",
-                    "icon": {
-                        "default": "option3.png"
-                    },
-                    "kuid": "53aa994f49fa4d8694ef845e1df106c2"
-                },
-                {
-                    "id": "appmenuitemid4",
-                    "title": "Item 4",
-                    "icon": {
-                        "default": "option4.png"
-                    },
-                    "kuid": "b3788a35c6044460892fa0bbbf169a35"
-                }
-            ]
-        },
-        "tablet": {
-            "data": [
-                {
-                    "id": "appmenuitemid1",
-                    "title": "Item 1",
-                    "icon": {
-                        "default": "option1.png"
-                    },
-                    "kuid": "1ea6b8c73f534640a11a104da1e4be02"
-                },
-                {
-                    "id": "appmenuitemid2",
-                    "title": "Item 2",
-                    "icon": {
-                        "default": "option2.png"
-                    },
-                    "kuid": "6922e63c7071468484f1d51d4e12cbfc"
-                },
-                {
-                    "id": "appmenuitemid3",
-                    "title": "Item 3",
-                    "icon": {
-                        "default": "option3.png"
-                    },
-                    "kuid": "72c70eec4bf740f3852ea30e81152d91"
-                },
-                {
-                    "id": "appmenuitemid4",
-                    "title": "Item 4",
-                    "icon": {
-                        "default": "option4.png"
-                    },
-                    "kuid": "29366831d7e24d5aac233e2e66af5fca"
-                }
-            ]
-        },
-        "desktop": {
-            "data": [
-                {
-                    "id": "appmenuitemid1",
-                    "title": "Item 1",
-                    "icon": {
-                        "default": "option1.png"
-                    },
-                    "kuid": "53ec2232d85745bf9b67070a93c7e9eb"
-                },
-                {
-                    "id": "appmenuitemid2",
-                    "title": "Item 2",
-                    "icon": {
-                        "default": "option2.png"
-                    },
-                    "kuid": "8f1f22520a404950bb15cf7f1dc83624"
-                },
-                {
-                    "id": "appmenuitemid3",
-                    "title": "Item 3",
-                    "icon": {
-                        "default": "option3.png"
-                    },
-                    "kuid": "75ac4cbcb3c647a68a1853bf043fdd9b"
-                },
-                {
-                    "id": "appmenuitemid4",
-                    "title": "Item 4",
-                    "icon": {
-                        "default": "option4.png"
-                    },
-                    "kuid": "97f26867eaa74296b65194b2794a5a2c"
-                }
-            ]
-        },
-        "skin": null,
-        "focusSkin": null,
-        "focusskin": null,
-        "osVersion": "iOS7",
-        "osPlatform": "",
-        "wType": "Appmenu"
-    },
-    "accountCloudGuid": "31faed67-61b2-44b9-aaff-bcd0d7980626",
-    "projectCloudGuid": "b3397638-ed14-4612-908e-e7836e27f4ad",
-    "prototype": {
-        "createdOn": "2015-08-31T20:29:35.797Z",
-        "createdById": "31faed67-61b2-44b9-aaff-bcd0d7980626",
-        "createdBy": "Guilherme Ventura",
-        "shareGuid": "B4CLW",
-        "resourceId": "7ce28dfb-9b16-49af-bc7c-1173b7e681f1"
-    }
+    "wap_ip_fontsize": "12",
+    "wap_spaandroidtab_fontsize": "17",
+    "wap_spaandroidtabhdpi_fontsize": "16",
+    "wap_spaandroidtabldpi_fontsize": "17",
+    "wap_spaandroidtabmdpi_fontsize": "14",
+    "wap_spaandroidtabxhdpi_fontsize": "18",
+    "wap_spaipad_fontsize": "17",
+    "wap_spawindowstab_fontsize": "17",
+    "wap_winphone320_fontsize": "12",
+    "wap_winphone480_fontsize": "12",
+    "winmobileguidkey": ""
 }

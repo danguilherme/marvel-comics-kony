@@ -7,7 +7,7 @@
 			{
 				"id": "ADD_SNIPPET__06b083be1ca94902898ae08dc810f02c",
 				"type": "ADD_SNIPPET",
-				"codeSnippet": "frmMainView.init();",
+				"codeSnippet": "blitz.mvc.modules[\"main\"].views[\"frmMain\"].init();",
 				"parentId": null,
 				"callbackType": null
 			}

@@ -7,7 +7,7 @@
 			{
 				"id": "ADD_SNIPPET__99e3aad0344c437da9fea13bc3311b66",
 				"type": "ADD_SNIPPET",
-				"codeSnippet": "frmComicsView.init();",
+				"codeSnippet": "blitz.mvc.modules[\"comics\"].views[\"frmComics\"].init();",
 				"parentId": null,
 				"callbackType": null
 			}
